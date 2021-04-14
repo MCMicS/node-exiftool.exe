@@ -1,6 +1,6 @@
 {
   "name": "@mcmics/exiftool.exe",
-  "version": "12.23.1",
+  "version": "12.23.2",
   "description": "A distribution of exiftool.exe",
   "main": "index.js",
   "scripts": {

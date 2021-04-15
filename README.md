@@ -1,19 +1,21 @@
 # exiftool.exe
-A distribution of _exiftool.exe_. Current version is 11.30.
+Fork of [https://github.com/Sobesednik/exiftool.exe](https://github.com/Sobesednik/exiftool.exe)
 
-[![npm version](https://badge.fury.io/js/exiftool.exe.svg)](https://badge.fury.io/js/exiftool.exe)
-[![Build status](https://ci.appveyor.com/api/projects/status/v4ddsw1hkvl9aijh/branch/master?svg=true)](https://ci.appveyor.com/project/zavr-1/node-exiftool-exe/branch/master)
+A distribution of _exiftool.exe_. Current version is 12.23.
 
-You might also be interested in [dist-exiftool](https://www.npmjs.com/package/dist-exiftool)
+[![npm version](https://badge.fury.io/js/%40mcmics%2Fexiftool.exe.svg)](https://badge.fury.io/js/%40mcmics%2Fexiftool.exe)
+[![Build status](https://ci.appveyor.com/api/projects/status/oge41bumo5xtou0p/branch/master?svg=true)](https://ci.appveyor.com/project/MCMicS/node-exiftool-exe/branch/master)
+
+You might also be interested in [dist-exiftool](https://www.npmjs.com/package/@mcmics/dist-exiftool)
 which will install an appropriate version of exiftool depending on the platform, and
-[exiftool.pl](https://www.npmjs.com/package/exiftool.pl) for non-Windows platforms.
+[exiftool.pl](https://www.npmjs.com/package/@mcmics/exiftool.pl) for non-Windows platforms.
 
 ## Usage
 The module exports a path to the exiftool Windows executable.
 
 ```js
 const exec = require('child_process').execFile;
-const exiftool = require('exiftool.exe');
+const exiftool = require('@mcmics/exiftool.exe');
 
 execFile(exiftool, ['-j', 'image.jpg'], (error, stdout, stderr) => {
 	if (error) {

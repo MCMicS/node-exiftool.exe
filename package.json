@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "download": "curl -L http://downloads.sourceforge.net/project/exiftool/exiftool-12.23.zip -o exiftool-12.23.zip; unzip exiftool-12.23.zip -d vendor; rm exiftool-12.23.zip; mv vendor/exiftool\\(-k\\).exe vendor/exiftool.exe"
+    "download": "curl -L http://downloads.sourceforge.net/project/exiftool/exiftool-12.30.zip -o exiftool-12.30.zip; unzip exiftool-12.30.zip -d vendor; rm exiftool-12.30.zip; mv vendor/exiftool\\(-k\\).exe vendor/exiftool.exe"
   },
   "repository": {
     "type": "git",

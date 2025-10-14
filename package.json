@@ -1,11 +1,11 @@
 {
   "name": "@mcmics/exiftool.exe",
-  "version": "12.40.0",
+  "version": "13.36.0",
   "description": "A distribution of exiftool.exe",
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "download": "curl -L http://downloads.sourceforge.net/project/exiftool/exiftool-12.40.zip -o exiftool-12.40.zip; unzip exiftool-12.40.zip -d vendor; rm exiftool-12.40.zip; mv vendor/exiftool\\(-k\\).exe vendor/exiftool.exe"
+    "download": "curl -L http://downloads.sourceforge.net/project/exiftool/exiftool-13.36_64.zip -o exiftool-13.36.zip ; rm -rf tmp/; mkdir tmp; unzip exiftool-13.36.zip -d tmp; rm exiftool-13.36.zip; rm -rf vendor/*; mv \"tmp\"/*/* \"vendor\"; rm -r tmp/; mv vendor/exiftool\\(-k\\).exe vendor/exiftool.exe"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/MCMicS/node-exiftool.exe#readme",
   "devDependencies": {
-    "mocha": "9.x"
+    "mocha": "11.x"
   }
 }

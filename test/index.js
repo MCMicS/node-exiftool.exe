@@ -20,13 +20,13 @@ describe('exiftool', function () {
 			done();
 		});
 	});
-	it('should have version 12.40', function (done) {
+	it('should have version 13.36', function (done) {
 		execFile(exiftool, ['-ver'], (err, stdout, stderr) => {
 			if (err) {
 				done(err);
 				return;
 			}
-			assert.equal(stdout.trim(), '12.40');
+			assert.equal(stdout.trim(), '13.36');
 			done();
 		});
 	});

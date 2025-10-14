@@ -1,10 +1,10 @@
 # exiftool.exe
 Fork of [https://github.com/Sobesednik/exiftool.exe](https://github.com/Sobesednik/exiftool.exe)
 
-A distribution of _exiftool.exe_. Current version is 12.30.
+A distribution of _exiftool.exe_. Current version is 13.36 (x64).
 
 [![npm version](https://badge.fury.io/js/%40mcmics%2Fexiftool.exe.svg)](https://badge.fury.io/js/%40mcmics%2Fexiftool.exe)
-[![Build status](https://ci.appveyor.com/api/projects/status/oge41bumo5xtou0p/branch/production_release?svg=true)](https://ci.appveyor.com/project/MCMicS/node-exiftool-exe/branch/production_release)
+[![Build status](https://ci.appveyor.com/api/projects/status/oge41bumo5xtou0p/branch/master?svg=true)](https://ci.appveyor.com/project/MCMicS/node-exiftool-exe/branch/master)
 
 You might also be interested in [dist-exiftool](https://www.npmjs.com/package/@mcmics/dist-exiftool)
 which will install an appropriate version of exiftool depending on the platform, and
